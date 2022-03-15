@@ -12,23 +12,28 @@
 
 # Network Communication
 
-{Describe the architecture that you used (client/server or peer-to-peer)}
+This chat app works on a client / server framework. The server receives all incoming
+messages and distributes them to other connected clients.
 
-{Identify if you are using TCP or UDP and what port numbers are used.}
+TCP connections are made using the SOCKSTREAM argument in the python 'socket' library.
 
-{Identify the format of messages being sent between the client and server or the messages sent between two peers.}
+Messages are encoded and decoded using utf-8. Message headers are sent so that recipients 
+know the size of the incoming message.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+- Visual Studio Code
+- Python 3.10.2
+    - Socket library
+    - Select library
+    - Errno library
+    - Sys library
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Real Python](https://realpython.com/python-sockets/#application-protocol-header)
+* [Youtube](https://www.youtube.com/watch?v=Lbfe3-v7yE0)
 
 # Future Work
 
