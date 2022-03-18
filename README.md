@@ -1,12 +1,11 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+The purpose of this project was to learn the basic of networking. To accomplish this I attempted to create a server / client chatroom application. This allows multiple clients to connect to the server at the same time and send messages through the server to all other clients, respectively.
 
-{Provide a description the networking program that you wrote. Describe how to use your software.  If you did Client/Server, then you will need to describe how to start both.}
+The server constantly listens for connections and messages from those who are connected. When a message is received, it is sent to all clients other than the one who sent the original message. At this time, connected clients must refresh their terminal to show the messages they've received from the server. I plan to implement listeners in the future that will refresh the terminal to show new messages when they're received if the user is not currently typing.
 
-{Describe your purpose for writing this software.}
+The user has the ability to choose a username.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (you will need to show two pieces of software running and communicating with each other) and a walkthrough of the code.}
 
 [Software Demo Video](http://youtube.link.goes.here)
 
@@ -31,13 +30,9 @@ know the size of the incoming message.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Real Python](https://realpython.com/python-sockets/#application-protocol-header)
 * [Youtube](https://www.youtube.com/watch?v=Lbfe3-v7yE0)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Create listeners so that clients don't have to manually refresh to recieve messages.

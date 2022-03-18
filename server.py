@@ -68,5 +68,3 @@ while True:
     for notified_socket in exception_sockets:
         sockets_list.remove(notified_socket)
         del clients[notified_socket]
-
-
