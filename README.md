@@ -7,7 +7,7 @@ The server constantly listens for connections and messages from those who are co
 The user has the ability to choose a username.
 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/Q3a2Mz45iKQ)
 
 # Network Communication
 
